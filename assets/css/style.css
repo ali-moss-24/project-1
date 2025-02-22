@@ -15,7 +15,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #330c32;
 }
 
 .bg-color-contact {
@@ -90,7 +90,7 @@ header {
 }
 
 .logo {
-    background: url("../images/totoro.jpg"); 
+    background: url("../images/steampunk-hq.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
