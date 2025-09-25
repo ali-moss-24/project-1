@@ -293,24 +293,33 @@ footer {
 
 /*--------------------------------------------Contact Form */
 
-.contact-heading {
-    font-family: "Exo" , sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+#contactForm input:hover,
+#contactForm textarea:hover {
+  border-color: #03b5aa;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #03b5aa;
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #03b5aa;
+  box-shadow: 0 0 5px rgba(3, 181, 170, 0.5);
+  outline: none;
+}
+
+#contactForm button:hover,
+#contactForm button:focus {
+  background-color: #028f86;
 }
 
 /*--------------------------------------------Media Queries */
