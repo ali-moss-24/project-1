@@ -98,6 +98,12 @@
                         </div>
                     </div>
                 </div>
+
+<div id="audioContainer">
+  <audio id="greetingAudio" src="assets/audio/greeting.mp3"></audio>
+  <button id="audioBtn">Play Greeting</button>
+</div>
+
                     <div class="col-md-8 bg-color-three reasons section-column">
                         <div class="row">
                     <div class="col">
@@ -179,6 +185,21 @@
         </div>
        </div>
     </footer>
+    <script>
+  const audio = document.getElementById('greetingAudio');
+  const btn = document.getElementById('audioBtn');
+
+  btn.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      btn.textContent = 'Pause Greeting';
+    } else {
+      audio.pause();
+      btn.textContent = 'Play Greeting';
+    }
+  });
+</script>
+
 </body>
 
 </html>
