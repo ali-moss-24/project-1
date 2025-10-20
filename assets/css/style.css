@@ -35,7 +35,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #bdFE87;
+    background-color: #bdfe87;
 }
 
 /*--------------------------------------------Special paddings/margins/text */
@@ -278,7 +278,30 @@ footer {
   top: 0.5em;          
 }
 
+
 .timeline-content {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-3px);
+}
+
+.timeline-content h4 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #7a305a;
+}
+
+.timeline-content p {
+  font-weight: 300;
+  margin: 0;
+  color: #333;
 }
 
 /*--------------------------------------------Contact Form */
