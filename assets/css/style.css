@@ -71,12 +71,12 @@ h4 {
     float: none;
 }
 
-.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+   
 }
 
 /*--------------------------------------------Heading */
@@ -248,6 +248,14 @@ footer {
   position: relative;
   padding-left: 3em; 
   margin-bottom: 30px;
+}
+
+.history-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #ffffff;
 }
 
 .timeline-item {
