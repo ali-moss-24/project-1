@@ -179,7 +179,7 @@ footer {
 footer h5 {
     font-size: 1.1rem;
     margin-bottom: 15px;
-    letter-spacing: 40px;
+    letter-spacing: 1px;
     color: #fff;
 }
 
@@ -207,7 +207,7 @@ footer .social-links {
     margin-top: 10px;
 }
 
-footer .ssocial-links i:hover {
+footer .social-links i:hover {
     color: #fff;
 }
 
@@ -220,11 +220,6 @@ footer .back-to-top a {
     color: #ccc;
     font-weight: bold;
     font-size: 0.95rem;
-}
-
-footer .back-to-top {
-    color: #fff;
-    text-decoration: underline;
 }
 
 /*------------------------------------------Three Reasons*/
