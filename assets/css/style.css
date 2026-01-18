@@ -331,8 +331,13 @@ footer {
 #contactForm button:focus {
   background-color: #028f86;
 }
+
 #contactForm button {
     margin-bottom: 30px;
+}
+
+#contact {
+    padding-bottom: 40px;
 }
 
 
