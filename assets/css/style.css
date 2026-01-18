@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&family=Exo:wght@100;200;300;400;500;600;700&display=swap');
-
 /*--------------------------------------------Colors */
 
 .bg-color-name-title {
@@ -333,6 +331,10 @@ footer {
 #contactForm button:focus {
   background-color: #028f86;
 }
+#contactForm button {
+    margin-bottom: 30px;
+}
+
 
 /*--------------------------------------------Media Queries */
 
